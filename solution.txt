@@ -1,0 +1,52 @@
+
+mkdir Practice_test
+
+cd Practice_test
+
+git init
+
+notepad file1.txt
+
+
+
+notepad file2.txt
+
+
+
+notepad file3.txt
+
+git checkout -b Dev
+
+git add file1.txt
+
+git commit -m "first file"
+
+git switch master
+
+git checkout -b test
+
+git add file2.txt
+
+git commit -m "file 2"
+
+git add file3.txt
+
+git commit -m "file 3"
+
+git switch master
+
+notepad file1.txt
+
+git diff
+
+git status
+
+git merge dev
+
+git merge test
+
+git remote add origin git@github.com:alfaiz12/test.git
+
+git push -u origin dev
+
+git push -u origin test
